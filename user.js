@@ -113,10 +113,10 @@ user_pref("network.file.disable_unc_paths", true);
 user_pref("network.gio.supported-protocols", "");
 
 /** PASSWORDS AND AUTOFILL ***/
-user_pref("signon.formlessCapture.enabled", false);
-user_pref("signon.privateBrowsingCapture.enabled", false);
-user_pref("signon.autofillForms", false);
-user_pref("signon.rememberSignons", false);
+user_pref("signon.formlessCapture.enabled", true);
+user_pref("signon.privateBrowsingCapture.enabled", true);
+user_pref("signon.autofillForms", true);
+user_pref("signon.rememberSignons", true);
 user_pref("editor.truncate_user_pastes", false);
 
 /** ADDRESS + CREDIT CARD MANAGER ***/
