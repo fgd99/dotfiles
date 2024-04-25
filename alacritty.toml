@@ -1,0 +1,50 @@
+working_directory = "C:/dev"
+
+[shell]
+program = "nu.exe"
+args = []
+
+[font]
+normal = { family = "IosevkaTermSlab NFP", style = "Medium" }
+size = 13.0
+
+[window]
+title = "Alacritty terminal"
+dynamic_title = false
+opacity = 1
+blur = true
+padding = { x = 2, y = 0 }
+
+# Colors (Night Owlish Light) modified
+
+[colors.primary]
+background = '#F8F8F8'
+foreground = '#0a0a0a'
+
+[colors.normal]
+black = '#011627'
+red = '#d3423e'
+green = '#2aa298'
+yellow = '#daaa01'
+blue = '#4876d6'
+magenta = '#403f53'
+cyan = '#33658A'
+white = '#7a8181'
+
+[colors.bright]
+black = '#7a8181'
+red = '#f76e6e'
+green = '#49d0c5'
+yellow = '#dac26b'
+blue = '#5ca7e4'
+magenta = '#697098'
+cyan = '#00c990'
+white = '#989fb1'
+
+[colors.cursor]
+cursor = '#403f53'
+text = '#fbfbfb'
+
+[colors.selection]
+background = '#bababa'
+text = '#403f53'
